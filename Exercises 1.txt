@@ -1,0 +1,54 @@
+1.  [Newton Second Law Pseudocode]
+    STORE "mass" with value 600
+    STORE "acceleration" with value 2
+    STORE "totalforce" without any value
+
+    CALCULATE "mass" times "acceleration"
+    SET "totalforce" value with calculation result
+
+    DISPLAY "totalforce"
+
+2.  [Tahun Kabisat Pseudocode]
+    STORE "year" with any value
+    IF "year" mod 4=0 and "year" mod 100≠0
+        DO year "merupakan tahun kabisat"
+    ELSE IF "year" mod 4=0 and "year" mod 100=0 and "year mod 400=0
+        DO year "merupakan tahun kabisat"
+
+    [Tahun Kabisat Algoritma]
+    Pilih sembarang angka tahun
+    Bagi angka tahun dengan angka 4, sisa=0, maka tahun kabisat
+    Bagi angka tahun dengan angka 100, sisa≠0, maka tahun kabisat
+    Bagi angka tahun dengan angka 4, 100, dan 400, sisa=0, maka tahun kabisat
+
+3.  [Laundry Day Pseudocode]
+    STORE "pakaian" with 0
+    WHILE "pakaian" < 20
+        ADD "pakaian" by 1
+
+    DISPLAY "mesin cuci siap dinyalakan"
+
+    [Laundry Day Algoritma]
+    Siapkan pakaian
+    Masukkan pakaian satu per satu hingga pakaian ke-20
+    Saat pakaian masuk sudah pakaian ke-20, nyalakan mesin cuci
+
+4.  [Periksa kuku Pseudocode]
+    STORE "count" to 1
+    STORE "kuku panjang" to 100
+    STORE "kuku tidak panjang" to 1000
+    WHILE "count" < 41
+        DISPLAY "count"
+        IF "count" equals to 100
+            DISPLAY "siswa/i akan mendapat hukuman!"
+        ELSE IF "count" equals to 1000
+            DISPLAY "kamu adalah murid yang teladan!"
+
+    [Perika kuku algoritma]
+    Siapkan kuku siswa-siswinya sebanyak 40 orang
+    Cek satu persatu kuku siswanya
+    Jika kuku siswanya panjang, maka beri hukuman
+    Jika kuku siswanya tidak panjang, beri pujian.
+
+
+

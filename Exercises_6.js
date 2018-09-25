@@ -39,61 +39,33 @@ console.log('---')
 console.log('Soal nomor 3')
 
 //Soal nomor 3
-for(let counter=1;counter<101;counter++){
-  if(counter%2==0){
-    console.log('GENAP')
+//1
+for (var i = 1; i <= 100; i++) {
+  if(i%2 === 0) {
+      console.log('GENAP')
   }
-  else {console.log('GANJIL')}
+  else {
+      console.log('GANJIL')
+  }
 }
 
-//perulangan #2
-
-
-var checkTwo;
-
-checkTwo = 1;
-
-while (checkTwo<=100) {
-    console.log(' ');
-    var result = checkTwo%3;
-    if (result === 0) {
-        console.log(checkTwo+' KELIPATAN 3');
-    } else if (result !== 0){
-      console.log(checkTwo+'  "" ')
-    }
-    checkTwo++;
+//2
+for (var i = 1; i <= 100; i=i+2) {
+  if (i%3===0) {
+      console.log(i +' KELIPATAN 3')
+  }
 }
 
-//perulangan #3
-
-var checkSix;
-
-checkSix = 1;
-
-while (checkSix<=100) {
-    console.log(' ');
-    var result = checkSix%6;
-    if (result === 0) {
-        console.log(checkSix+' KELIPATAN 6');
-    } else if (result !== 0){
-      console.log(checkSix+'  "" ')
-    }
-    checkSix++;
+//3
+for (var i = 1; i <=100; i=i+5) {
+  if (i%6 === 0) {
+      console.log(i +' KELIPATAN 6');
+  }
 }
 
-//perulangan #4
-
-var checkTen;
-
-checkTen = 1;
-
-while (checkTen<=100) {
-    console.log(' ');
-    var result = checkTen%10;
-    if (result === 0) {
-        console.log(checkTen+' KELIPATAN 10');
-    } else if (result !== 0){
-      console.log(checkTen+'  "" ')
-    }
-    checkTen++;
+//4
+for (var i=1; i<=100; i=i+9) {
+  if (i%10 === 0) {
+      console.log(i+' KELIPATAN 10')
+  }
 }
